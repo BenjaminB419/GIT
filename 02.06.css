@@ -1,0 +1,72 @@
+body{
+  background-image: url(./image/back.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height:100vh;
+}
+
+.keret{
+  width: 1000px;
+  margin: auto;
+  
+}
+
+.header{
+  min-width: 650px;
+  max-width: 1000px;
+  height: 200px;
+  background-image: url(./image/panorama.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.cimer{
+  width: 100px;
+  height: 100px;
+  margin-right: 60px;
+  }
+
+  h1{
+    margin-left: 20px;
+    align-self: flex-start;
+  }
+
+  table,th,td{
+    border: 1px black solid;
+    background-color: #b0d1f1;
+    border-collapse: collapse;
+  }
+
+  .tablazat-keret{
+    background-color: #5b9cea;
+      width: 450px;
+      float: left;
+      padding: 10px 20px 2px 20px;
+      margin-bottom: 50px;
+  }
+
+  .egesz{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .title2{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+
+  th{
+    padding-left: 10px;
+  }
+
+  td{
+    padding-left: 5px;
+  }
