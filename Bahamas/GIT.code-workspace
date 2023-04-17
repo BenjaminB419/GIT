@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"name": "GIT",
+			"path": ".."
+		},
+		{
+			"name": "gombok",
+			"path": "../../gombok"
+		},
+		{
+			"name": "gyakorlás",
+			"path": "../../gyakorlás"
+		},
+		{
+			"name": "media",
+			"path": "../../media"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "GIT",
+		"compile-hero.disable-compile-files-on-did-save-code": false
+	}
+}

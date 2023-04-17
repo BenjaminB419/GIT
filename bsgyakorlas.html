@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link rel="stylesheet" href="bsgyakorlas.css">
+  <title>Bootstrap</title>
+  <style>
+    .gombok{
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    h1{
+      text-align: center;
+    }
+
+    .table{
+      margin-top: 20px;
+    }
+
+    .navbar .navbar-nav .nav-link:hover{
+    background-color: green;
+  }
+
+  .container-card{
+    display: flex;
+   justify-content: center;
+   margin-bottom: 100px;
+   margin-top: 100px;
+   gap: 20px;
+  flex-wrap: wrap;
+  }
+
+  .card-img-top{
+    width: 150px;
+    height: 150px;
+    align-self: center;
+  }
+
+  </style>
+
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid bg-dark border border rounded ">
+      <a class="navbar-brand text-light" href="#">My dashboard</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active text-light" aria-current="page" href="#">Likes</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-light" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Views
+            </a>
+            <ul class="dropdown-menu bg-black">
+              <li><a class="dropdown-item text-light" href="#">Documents</a></li>
+              <li><a class="dropdown-item text-light" href="#">Messages</a></li>
+              <li><a class="dropdown-item text-light" href="#">Sign out</a></li>
+            </ul>
+          </li>
+          <li class="nav-item text-light">
+            <a class="nav-link text-light" href="#">Uploads</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Videos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="#">Documents</a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+<div class="container-card">
+  <div class="card text-bg-danger col-12" style="width: 18rem;">
+    <img src="./JS/Real_Madrid_CF.svg.png"  class="card-img-top" alt="RM">
+    <div class="card-body">
+      <h5 class="card-title"><div class="text-center">Real Madrid</div></h5>
+      <p class="card-text">Real Madrid Club de Fútbol commonly referred to as Real Madrid, is a Spanish professional football club based in Madrid who currently play in La Liga.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Ground: Santiago Bernabeu</li>
+      <li class="list-group-item list-group-item-info">Head Coach: Carlo Ancelotti</li>
+      <li class="list-group-item">Owner: Florentino Perez</li>
+    </ul>
+    <div class="card-body">
+      <a href="https://en.wikipedia.org/wiki/Real_Madrid_CF" class="card-link" target="_blank"><div class="text-center">Wikipedia</div></a>
+    </div>
+  </div>
+  <div class="card text-bg-secondary col-12" style="width: 18rem;">
+    <img src="./JS/Liverpool_FC (1).png" class="card-img-top" alt="LP">
+    <div class="card-body">
+      <h5 class="card-title"><div class="text-center">Liverpool</div></h5>
+      <p class="card-text">Liverpool Football Club is a professional football club based in Liverpool, England. The club competes in the Premier League, the top tier of English football. </p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item ">Ground: Anfield</li>
+      <li class="list-group-item list-group-item-info">Head Coach: Jürgen Klopp</li>
+      <li class="list-group-item">Owner: Fenway Sports</li>
+    </ul>
+    <div class="card-body">
+      <a href="https://en.wikipedia.org/wiki/Liverpool_F.C." class="card-link" target="_blank"><div class="text-center">Wikipedia</div></a>
+    </div>
+  </div>
+  <div class="card text-bg-success col-12" style="width: 18rem;">
+    <img src="./JS/inter-milan-logo-0.png" class="card-img-top" alt="Inter">
+    <div class="card-body">
+      <h5 class="card-title"><div class="text-center">Inter Milan</div></h5>
+      <p class="card-text">Football Club Internazionale Milano, commonly referred to as Internazionale  as Inter Milan in English-speaking countries, is an Italian professional football club.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Ground: San Siro</li>
+      <li class="list-group-item list-group-item-info">Head Coach: Simone Inzaghi</li>
+      <li class="list-group-item">Owner: Suning Holdings</li>
+    </ul>
+    <div class="card-body">
+      <a href="https://en.wikipedia.org/wiki/Inter_Milan" class="card-link" target="_blank"><div class="text-center">Wikipedia</div></a>
+    </div>
+  </div>
+  <div class="card text-bg-warning" style="width: 18rem;">
+    <img src="./JS/RB_Leipzig_2014_logo.svg.png" class="card-img-top" alt="RBL">
+    <div class="card-body">
+      <h5 class="card-title"><div class="text-center">RB Leipzig</div></h5>
+      <p class="card-text">RasenBallsport Leipzig e.V. (lit. 'Lawn Ball Sports Leipzig'), commonly known as RB Leipzig, is a German professional football club based in Leipzig, Saxony.</p>
+    </div>
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">Ground: Red Bull Arena</li>
+      <li class="list-group-item list-group-item-info">Head Coach: Marco Rose</li>
+      <li class="list-group-item">Owner: Red Bull GmbH.</li>
+    </ul>
+    <div class="card-body">
+      <a href="https://en.wikipedia.org/wiki/RB_Leipzig" class="card-link" target="_blank"><div class="text-center">Wikipedia</div></a>
+    </div>
+  </div>
+</div>
+
+
+
+  <div class="row">
+    <div class="col border col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 ">1</div>
+    <div class="col border col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 ">2</div>
+    <div class="col border col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 ">3</div>
+    <div class="col border col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 ">4</div>
+    <div class="col border col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 ">5</div>
+    <div class="col border col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 ">6</div>
+    <div class="col border col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 ">7</div>
+    <div class="col border col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 ">8</div>
+    <div class="col border col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 ">9</div>
+    <div class="col border col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 ">10</div>
+    <div class="col border col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 ">11</div>
+    <div class="col border col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3 col-xxl-2 ">12</div>
+  </div>
+
+
+<hr>
+
+
+
+  <h1>Kérdőív</h1>
+  <hr>
+  <form class="form2">
+    <div class="row mb-3">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">Email címed:</label>
+      <div class="col-sm-10">
+        <input type="email" class="form-control" id="inputEmail3">
+      </div>
+    </div>
+    <div class="row mb-3">
+      <label for="inputPassword3" class="col-sm-2 col-form-label">Leendő jelszavad:</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword3">
+      </div>
+    </div>
+    <div class="row mb-3">
+      <label for="inputPassword3" class="col-sm-2 col-form-label">Jelszavad még egyszer:</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword3">
+      </div>
+    </div>
+
+      <div class="row mb-3">
+      <label for="szulev" class="col-sm-2 col-form-label">Születési éved:</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="szulev">
+      </div>
+      </div>
+
+      <div class="row mb-3">
+        <label for="irszam" class="col-sm-2 col-form-label">Lakóhelyed irányítószáma:</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="irszam">
+        </div>
+      
+    <fieldset class="row mb-3">
+      <legend class="col-form-label col-sm-2 pt-0">Iskolai végzettséged:</legend>
+      <div class="col-sm-10">
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+          <label class="form-check-label" for="gridRadios1">
+            Általános iskola
+          </label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+          <label class="form-check-label" for="gridRadios2">
+            Középiskola
+          </label>
+        </div>
+        <div class="form-check-reverse">
+          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+          <label class="form-check-label" for="gridRadios3">
+            Főiskola,egyetem
+          </label>
+        </div>
+      </div>
+    </fieldset>
+    <div class="row mb-3">
+      <div class="col-sm-10 offset-sm-2">
+        <div class="form-check">
+          A regisztrációs feltételeket elfogadom
+          <input class="form-check-input" type="checkbox" id="gridCheck1">
+          <label class="form-check-label" for="gridCheck1">
+          </label>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <div class="gombok">
+    <button type="submit" class="btn btn-primary">Regisztráció</button>
+    <button type="reset" class="btn btn-primary">Mezők törlése</button>
+  </div>
+  </form>
+
+
+  <table class="table table-success table-striped-columns table-hover">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">First</th>
+        <th scope="col">Last</th>
+        <th scope="col">Handle</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td>Mark</td>
+        <td>Otto</td>
+        <td>@mdo</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td>Jacob</td>
+        <td>Thornton</td>
+        <td>@fat</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td>Larry the Bird</td>
+        <td><img src="./Bahamas/bg.jpg" class="img-fluid mx-auto d-block rounded" alt="..." width="100px"></td>
+        <td>@twitter</td>
+      </tr>
+    </tbody>
+  </table>
+
+
+
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+      Menü
+    </button>
+    <ul class="dropdown-menu">
+      <li><button class="dropdown-item" type="button">Cím</button></li>
+      <li><button class="dropdown-item" type="button">Tartalom</button></li>
+      <li><button class="dropdown-item" type="button">Kapcsolat</button></li>
+    </ul>
+  </div>
+
+  <div class="container-fluid text-center ">
+    <div class="row">
+      <div class=" col-sm-12 col-md-6 col-lg-4 col-xl-3 border">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Maiores distinctio quia magni quaerat ab itaque, incidunt consequuntur! Eos impedit ab, unde iure blanditiis
+        voluptatum quis, minima optio facere laboriosam fuga.</div>
+      <div class=" col-sm-12 col-md-6 col-lg-4 col-xl-3 border">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Maiores distinctio quia magni quaerat ab itaque, incidunt consequuntur! Eos impedit ab, unde iure blanditiis
+        voluptatum quis, minima optio facere laboriosam fuga.</div>
+      <div class=" col-sm-12 col-md-6 col-lg-4 col-xl-3 border">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Maiores distinctio quia magni quaerat ab itaque, incidunt consequuntur! Eos impedit ab, unde iure blanditiis
+        voluptatum quis, minima optio facere laboriosam fuga.</div>
+      <div class=" col-sm-12 col-md-6 col-lg-4 col-xl-3 border">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        Maiores distinctio quia magni quaerat ab itaque, incidunt consequuntur! Eos impedit ab, unde iure blanditiis
+        voluptatum quis, minima optio facere laboriosam fuga.</div>
+      <!--  <div class="w-100"></div> -->
+    </div>
+  </div>
+  </div>
+  <hr>
+
+  <div class="container-fluid">
+    <div class="header">
+      <div class="row">
+        <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12-col-xxl-12 border">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Rólunk</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Szolgáltatás</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Kapcsolat</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+      <div class="container-fluid text center p-1">
+        <div class="row align-items-md-stretch">
+          <div class="col-sm-12 col-md-12 col-lg-9 col-xl-9 col-xxl-9 border">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio repellat dolor corrupti incidunt quae
+            placeat? Odit suscipit soluta sint alias quasi reiciendis eveniet nemo eius illo sequi, possimus nisi aut.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi excepturi, blanditiis natus veritatis aliquam harum, illum perspiciatis voluptatum autem odit suscipit asperiores quidem ut nobis enim delectus. Minima, voluptatem incidunt.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex laborum itaque, cumque minima dolorem repellendus ad laboriosam natus, non optio harum doloremque minus voluptate dolorum nisi cum molestias nulla corrupti.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia modi quos, odio autem delectus debitis consequuntur incidunt. Repellat quaerat a cumque perspiciatis labore nulla dolor atque? Vel voluptas repellat fuga?
+          </div>
+
+
+
+          <div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 col-xxl-3 border">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio repellat dolor corrupti incidunt quae
+            placeat? Odit suscipit soluta sint alias quasi reiciendis eveniet nemo eius illo sequi, possimus nisi aut.
+          </div>
+
+        </div>
+      </div>
+
+      <div class="footer text-center">
+        <div class="row align items-md-stretch">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 border">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui mollitia quas delectus. Ipsa asperiores veniam
+            facere consectetur harum velit? Dicta voluptatem corporis quod repudiandae? Commodi eius quisquam laudantium
+            quae sequi.
+          </div>
+</div>
+      </div>
+
+    </div>
+
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS űrlap</title>
+  <style>
+    .container{
+      width: 600px;
+      margin: auto;
+      border: 2px solid black;
+      padding: 10px;
+      background-color: rgb(199, 118, 37);
+    }
+    
+    h2{
+      text-align: center;
+    }
+
+    .container input{
+      background-color: rgb(208, 207, 207);
+    }
+
+    .reg{
+      display: flex;
+    }
+
+    label{
+      width:180px;
+      display: inline-block;
+      margin: 5px;
+      text-align: center;
+    }
+
+    .buttons{
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .vegzettseg{
+      display:flex;
+     }
+
+  </style>
+</head>
+<body>
+<form name="regisztracio" id="regisztracio">
+  <div class="container">
+    <h2>Azonosító adataid</h2>
+    <hr>
+  <div>
+    <label for="email">e-mail címed:</label>
+    <input type="email" name="email" id="email">
+  </div>
+
+  <div>
+    <label for="password">leendő jelszavad:</label>
+    <input type="password" name="password" id="password">
+  </div>
+
+  <div>
+    <label for="password2">Jelszavad még egyszer:</label>
+    <input type="password" name="password2" id="password2">
+   </div>
+
+   <div>
+      <label for="szuletesiev">Születési éved:</label>
+      <input type="number" name="szuletesiev" id="szuletesiev">
+   </div>
+
+   <div>
+    <label for="irszam">Lakóhelyed irányítószáma:</label>
+    <input type="number" name="irszam" id="irszam">
+ </div>
+
+ <div class="vegzettseg">
+  <label for="suli">Iskolai végzettség:</label>
+
+  <input type="radio" name="suli" id="suli">
+  <label for="suli">Általános iskola</label>
+
+  <input type="radio" name="suli" id="suli">
+  <label for="suli">Középiskola</label>
+
+  <input type="radio" name="suli" id="suli">
+  <label for="suli">Egyetem</label>
+</div>
+<hr>
+
+<div class="reg">
+  <p>A regisztrációs feltételeket elfogadom:</p>
+  <input type="checkbox" name="cb" id="cb">
+</div>
+<hr>
+<div class="buttons">
+<input type="submit" value="Regisztráció" onclick="ellenorzes(),ellenorzes2(),ellenorzes3()">
+<input type="reset" value="Mezők törlése">
+</div>
+</div>
+</form>
+  <script src="./urlap 03.28.js"></script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+body{
+  background-image:url(./wp1887731-bahamas-wallpapers.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin: auto;
+  height: 100vh;
+  width: 100%;
+  background-attachment: fixed;
+  }
+
+  .fent{
+    display: flex;
+    justify-content: space-between;
+  }
+
+.logo img{
+  height: 50px;
+  margin-top: 10px;
+  display: flex;
+  align-items: flex-start;
+
+}
+
+.container{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+ 
+}
+
+.hamb{
+  width: 35px;
+  height: 70px;
+}
+
+.nav{
+  color: rgb(255, 255, 255);
+  margin-right: 40px;
+  font-size: 20px;
+}
+
+.navi{
+  display: flex;
+}
+
+
+.middle{
+  color: white;
+  margin-top: 70px;
+  text-align: center;
+  line-height: 5px;
+  font-family: 'Tilt Warp', cursive;
+ 
+  }
+
+h1{
+  font-size: 80px;
+}
+
+.button{
+  background-color: rgba(211, 67, 67, 0.963);
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border: none;
+  border-radius: 15px;
+  color: white;
+  font-weight: bold;
+  margin-top: 225px;
+  cursor: pointer;
+}

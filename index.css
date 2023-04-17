@@ -46,7 +46,7 @@ body{
   .tablazat-keret{
     background-color: #5b9cea;
       width: 450px;
-      float: left;
+     /*  float: left; */
       padding: 10px 20px 2px 20px;
       margin-bottom: 50px;
   }
@@ -69,4 +69,8 @@ body{
 
   td{
     padding-left: 5px;
+  }
+
+  @media screen and (max-width:1250px) {
+    
   }

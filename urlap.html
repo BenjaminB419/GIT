@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/urlap.css">
+  <title>Űrlap</title>
+</head>
+<body>
+  <div class="container">
+    <form action="urlap.html" method="post">
+      <h1>Egyszerű űrlap</h1>
+      <div>
+        <label for="nev">Név:</label>
+        <input type="text" name="nev" id="nev">
+      </div> 
+      <div>
+        <label for="mail">E-mail:</label>
+        <input type="email" name="mail" id="mail" >
+      </div>
+      <div>
+        <input type="checkbox" name="hirlevel" id="hirlevel">
+        <label for="hirlevel">Szeretnék értesülni a hirlevelekről</label>
+      </div>
+      <div>
+        <input type="checkbox" name="Szabalyzat" id="szabalyzat">
+        <label for="szabalyzat">Megértettem a szabályzatot</label>
+      </div>
+      <p>hozzájárulok reklámlevelek fogadásához</p>
+      <div>
+        <input type="radio" name="reklam" id="igen" value="igen">
+        <label for="igen">Igen</label>
+      </div>
+      <div>
+        <input type="radio" name="reklam" id="nem">
+        <label for="nem">Nem</label>
+      </div>
+      <p>Megjegyzés:</p>
+      <textarea name="megjegyzes" id="megjegyzes" cols="30" rows="10"></textarea>
+      <div>
+        <input type="submit" value="küldés">
+        <input type="reset" value="törlés">
+      </div>
+      <div>
+        <p>Válaszd ki a kedvenc zenéidet (többet is jelölhetsz).</p>
+        <input type="checkbox" name="zene" id="zene">
+        <label for="zene">zene1</label>
+        <input type="checkbox" name="zene" id="zene">
+        <label for="zene">zene2</label>
+        <input type="checkbox" name="zene" id="zene">
+        <label for="zene">zene3</label>
+        <input type="checkbox" name="zene" id="zene">
+        <label for="zene">zene4</label>
+        <input type="checkbox" name="zene" id="zene">
+        <label for="zene">zene5</label>
+        </div>
+
+        
+    </form>
+  </div>
+
+</body>
+</html>

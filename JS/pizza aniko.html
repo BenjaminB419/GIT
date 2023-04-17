@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizzák</title>
+    <style>
+        body{
+            width: 90%;
+            margin: auto;
+            background-color: bisque;
+        }
+        article{
+           
+            padding: 1%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        img{
+            margin: 1%;
+        }
+        article div{
+            display: flex;
+            border: black 2px solid;
+            border-radius: 10px;
+            margin: 1%;
+            padding: 2%;
+            background-color: rgb(250, 238, 66);
+            align-content: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            max-width: 350px;
+            
+        }
+        button{
+            display: flex;
+            align-items: flex-end;
+            justify-content: flex-end;
+            align-self: flex-end;
+            padding: 1%;
+            
+        }
+        p{
+           width: 90%;
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pizzás étlap</h1>
+<p>Üdvözöljuk honlapunkon, válogasson pizzáink közül!</p>
+<article>
+    <div>
+        <img src="./maxresdefault.jpg" alt="" width="300px" onmouseover="style.width='320px'" onmouseout="style.width='300px'">
+        <p id="menu0"></p>
+        <button onmouseover="alert('Jó döntés!')">MEGRENDELEM</button>
+    </div>
+    <div>
+        <img src="./b36036a54e1cf9c084f4b702a63e5a08f1e98983.webp" alt="" width="300px" onmouseover="style.width='320px'" onmouseout="style.width='300px'">
+        <p id="menu1"></p>
+        <button>MEGRENDELEM</button>
+    </div>
+    <div>
+        <img src="./letöltés.jpg" alt="" width="300px" onmouseover="style.width='320px'" onmouseout="style.width='300px'">
+        <p id="menu2"></p>
+        <button>MEGRENDELEM</button>
+    </div>
+    <div>
+        <img src="./letöltés.jpg" alt="" width="300px" onmouseover="style.width='320px'" onmouseout="style.width='300px'">
+        <p id="menu3"></p>
+        <button>MEGRENDELEM</button>
+    </div>
+    <div>
+        <img src="./letöltés.jpg" alt="" width="300px" onmouseover="style.width='320px'" onmouseout="style.width='300px'">
+        <p id="menu4"></p>
+        <button>MEGRENDELEM</button>
+    </div>
+    <div>
+        <img src="./letöltés.jpg" alt="" width="300px" onmouseover="style.width='320px'" onmouseout="style.width='300px'">
+        <p id="menu5"></p>
+        <button>MEGRENDELEM</button>
+    </div>
+    <div>
+        <img src="./letöltés.jpg" alt="" width="300px" onmouseover="style.width='320px'" onmouseout="style.width='300px'">
+        <p id="menu6"></p>
+        <button>MEGRENDELEM</button>
+    </div>
+  
+</article>
+
+    <script src="./pizza.js"></script>
+</body>
+</html>
